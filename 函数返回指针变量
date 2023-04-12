@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//函数返回指针变量
+//函数返回指针变量.
 int *add(int* x,int* y){
 
     int c=(*x)+(*y);
