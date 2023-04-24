@@ -4,7 +4,7 @@ struct Node{
     int data;
     struct Node* next;
 };
-struct Node* head;
+struct Node* head;//全局变量
 void insert(int x){
     struct Node* temp=(struct Node*)malloc(sizeof(struct Node));
     temp->data=x;
